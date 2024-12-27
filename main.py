@@ -38,14 +38,12 @@ with row3[1]:
 with row3[2]:
     num_open_accounts = st.number_input('Open Loan Accounts', min_value=1, max_value=4, step=1, value=2)
 
-
 with row4[0]:
     residence_type = st.selectbox('Residence Type', ['Owned', 'Rented', 'Mortgage'])
 with row4[1]:
     loan_purpose = st.selectbox('Loan Purpose', ['Education', 'Home', 'Auto', 'Personal'])
 with row4[2]:
     loan_type = st.selectbox('Loan Type', ['Unsecured', 'Secured'])
-
 
 # Button to calculate risk
 if st.button('Calculate Risk'):
@@ -58,6 +56,6 @@ if st.button('Calculate Risk'):
                                                 residence_type, loan_purpose, loan_type)
 
     # Display the results
-    st.write(f"Deafult Probability: {probability:.2%}")
+    st.write(f" Default Probability: {probability:.2%}")
     st.write(f"Credit Score: {credit_score}")
     st.write(f"Rating: {rating}")
