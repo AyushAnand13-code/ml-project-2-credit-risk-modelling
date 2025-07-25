@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data & artifacts
+*.csv
+*.tsv
+*.pkl
+*.joblib
+*.h5
+*.npy
+artifacts/
+dataset/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
