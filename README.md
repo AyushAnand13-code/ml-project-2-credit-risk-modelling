@@ -20,8 +20,7 @@ Credit risk assessment is crucial for financial institutions to evaluate the pro
 - 📊 **Two ML models**: Logistic Regression (interpretable) & XGBoost (robust performance)
 - 🧹 **Data Preprocessing**: Label Encoding, Scaling, Null handling
 - 🧠 **Interactive UI**: Takes user input and returns prediction
-- 🧮 **Confidence Score**: Model outputs probability of default
-- 📂 **Batch prediction** (optional, if added later)
+
 
 ---
 
@@ -36,7 +35,5 @@ Credit risk assessment is crucial for financial institutions to evaluate the pro
 | Streamlit      | Web app frontend                 |
 | joblib         | Model serialization              |
 
----
 
-## 📁 Project Structure
 
