@@ -58,5 +58,10 @@ pip install -r requirements.txt
 ### 4. Run the Streamlit App
 streamlit run app/app.py
 
+<img width="1895" height="788" alt="image" src="https://github.com/user-attachments/assets/e6d0876f-f537-440a-acac-9e05e0471191" />
+
+We can try the deployed app here:
+👉 [Click to Open Streamlit App](https://ml-project-2-credit-risk-modelling-by-ayushanand.streamlit.app/)
+
 
 
