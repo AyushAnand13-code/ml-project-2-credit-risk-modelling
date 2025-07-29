@@ -36,4 +36,27 @@ Credit risk assessment is crucial for financial institutions to evaluate the pro
 | joblib         | Model serialization              |
 
 
+## 🚀 How to Run the Project Locally
+
+Follow the steps below to run the credit risk prediction project on your local machine.
+
+### 1. Clone the Repository
+
+
+git clone https://github.com/AyushAnand13-code/ml-project-2-credit-risk-modelling.git
+cd ml-project-2-credit-risk-modelling
+
+
+### 2.Create a Virtual Environment (Optional but Recommended)
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+### 3.Install Required Dependencies
+pip install -r requirements.txt
+
+### 4. Run the Streamlit App
+streamlit run app/app.py
+
+
 
